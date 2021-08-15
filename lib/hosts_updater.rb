@@ -6,10 +6,10 @@ require 'fileutils'
 class HostsUpdater
 
   SOURCES = {
-    :mdl => ['http://www.malwaredomainlist.com/hostslist/hosts.txt', 'Malware Domain List'],
-    :mvps => ['http://winhelp2002.mvps.org/hosts.txt', 'MVPS Hosts'],
-    :swc => ['http://someonewhocares.org/hosts/hosts', "Dan Pollock's List"],
-    :yoyo => ['http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext', "Peter Lowe's Ad Server List"]
+    :mdl => ['https://www.malwaredomainlist.com/hostslist/hosts.txt', 'Malware Domain List'],
+    :mvps => ['https://winhelp2002.mvps.org/hosts.txt', 'MVPS Hosts'],
+    :swc => ['https://someonewhocares.org/hosts/hosts', "Dan Pollock's List"],
+    :yoyo => ['https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext', "Peter Lowe's Ad Server List"]
   }
 
   DEFAULT_OPTIONS = {
